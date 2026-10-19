@@ -13,8 +13,9 @@ import {
 import {
   Heart, Sparkles, Wind, Plus, CheckCircle2, Moon, Zap,
   Smile, PhoneCall, Stethoscope, ChevronRight, Check,
-  BookOpen, MessageSquare, ArrowRight, ShieldCheck, Activity
+  BookOpen, MessageSquare, ArrowRight, ShieldCheck, Activity, FileText
 } from 'lucide-react'
+
 
 const Dashboard: React.FC = () => {
   const [data, setData] = useState<any>(null)
